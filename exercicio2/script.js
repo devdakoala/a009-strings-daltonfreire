@@ -1,6 +1,7 @@
 const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      ";
 console.log(minhaString.length)
 
-console.log(minhaString.trim)
+const semEsp = minhaString.trim()
+console.log(semEsp)
 
-console.log(minhaString.replaceAll("_", "sticioso"))
+console.log(minhaString.replaceAll("________", "sticioso"))
